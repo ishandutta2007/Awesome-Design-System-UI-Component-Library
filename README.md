@@ -2,7 +2,7 @@
 
 # Awesome-Design-System-UI-Component-Library
 
-# Top Design System & UI Component Library
+## Top Design System & UI Component Library
 **Curated List of SaaS Products & Open-Source GitHub Projects**
 
 *Focused on Design Systems, UI Component Libraries, Design Tokens & Accessible Interface Patterns*
