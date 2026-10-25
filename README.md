@@ -1,7 +1,5 @@
 # Awesome-Design-System-UI-Component-Library
 
-# Awesome-Design-System-UI-Component-Library
-
 ## Top Design System & UI Component Library
 **Curated List of SaaS Products & Open-Source GitHub Projects**
 
@@ -18,41 +16,37 @@ This repository tracks notable **SaaS / company design systems** and **open-sour
 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
 
 ## Table of Contents
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
+- [SaaS & Hosted Design System Platforms](#saas--hosted-design-system-platforms)
+- [Enterprise & Product Design Systems](#enterprise--product-design-systems)
 - [Open-Source GitHub Projects](#open-source-github-projects)
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
 
-## SaaS/Hosted Platforms
-- **[Adobe Spectrum](https://spectrum.adobe.com/)**  
-  Adobe’s design system providing guidelines, design tokens, and components used across Adobe products, with strong accessibility focus and open-source React implementations.
+## SaaS & Hosted Design System Platforms
 
-- **[Google Material Design](https://m3.material.io/)**  
-  Google’s comprehensive design system (Material Design 3) offering principles, components, and guidance for Android, web, and multi-platform experiences.
+| Product | Description | Pricing (Starting Tier) | Free Tier Limits |
+| :--- | :--- | :--- | :--- |
+| **[zeroheight](https://zeroheight.com/)** | Cloud documentation hub connecting Figma tokens and code into interactive styleguides. | $49 / editor / month (billed annually) or $59 / month | Free forever: 1 editor, 1 styleguide, 1 token set, unlimited viewers, basic AI assistant, 500 MCP calls/month. |
+| **[Supernova](https://supernova.io/)** | End-to-end design system platform bridging design tokens, documentation, and code generation. | $399 / month (Pro plan) | Free forever (Starter): Up to 3 editors, up to 20 documentation pages (public access only), 1,000 workspace credits/month, 1 MCP server, up to 10 AI skills. |
+| **[Chromatic](https://www.chromatic.com/)** | Cloud visual regression testing and UI review platform for Storybook and component libraries. | $179 / month (Starter plan for 35,000 snapshots) | Free forever: Up to 5,000 billed snapshots/month (Chrome only), unlimited projects, users, and collaborators (testing pauses when cap is reached). |
+| **[Tokens Studio](https://tokens.studio/)** | Centralized design token management platform and Figma plugin with Git sync pipelines. | €39 / user / month (Team plan billed annually) | Free forever: 1 editor seat, unlimited viewers, 1 project with 1 active branch, 1 theme group with 2 theme options, 1 export configuration (excludes paid Figma plugin sync features). |
+| **[Specify](https://specifyapp.com/)** | Design token automation and distribution engine connecting Figma to code repositories via automated PRs. | $20 / month (Specify App Pro) / $69 / month (Essentials token repository) | 14-day free trial on paid plans (full access during trial); Free tier available for personal docs with 100MB storage and basic AI usage. |
+| **[Figma](https://www.figma.com/)** | Industry-standard collaborative interface design, design system token/component, and prototyping platform. | $15 / editor / month (Professional billed annually) or $18 / month ($12 / month for Dev Mode seat) | Free forever (Starter): 3 shared Figma Design/Sites files, 3 FigJam files, 30-day version history, unlimited personal drafts, and 150 AI credits/day. |
+| **[Tailwind UI](https://tailwindui.com/)** | Premium application, marketing, and ecommerce component collection and templates built with Tailwind CSS. | $299 one-time purchase for lifetime individual access (legacy all-access; direct new purchases currently paused) | Free preview tier: Lifetime free access to select sample interactive component previews and free open-source primitives via Headless UI. |
 
-- **[Salesforce Lightning Design System](https://www.lightningdesignsystem.com/)**  
-  Design system powering Salesforce products, with detailed component guidelines, accessibility standards, and developer resources.
+## Enterprise & Product Design Systems
 
-- **[Microsoft Fluent Design System](https://fluent2.microsoft.design/)**  
-  Microsoft’s design language and system used across Windows, Office, and web products, emphasizing depth, motion, and cross-platform consistency.
-
-- **[Atlassian Design System](https://atlassian.design/)**  
-  Design system used by Jira, Confluence, and other Atlassian products, with components, foundations, and content guidelines.
-
-- **[Shopify Polaris](https://polaris.shopify.com/)**  
-  Shopify’s design system for building consistent merchant experiences, including React components and design guidance.
-
-- **[IBM Carbon Design System](https://carbondesignsystem.com/)**  
-  IBM’s open design system with extensive components, patterns, and guidance (also listed in open-source due to its fully open nature).
-
-- **[GitHub Primer](https://primer.style/)**  
-  GitHub’s design system used to build github.com, offering React components, CSS, and design tokens.
-
-- **[Ant Design](https://ant.design/)**  
-  Enterprise-class UI design language and React component library widely used for admin interfaces and data-dense applications.
-
-- **[Tailwind UI](https://tailwindui.com/)**  
-  Official premium component collection built with Tailwind CSS, offering polished, production-ready UI patterns (complements the open-source Tailwind CSS).
+| Design System | Organization | Description | Availability & Pricing |
+| :--- | :--- | :--- | :--- |
+| **[Adobe Spectrum](https://spectrum.adobe.com/)** | Adobe | Guidelines, design tokens, and components used across Adobe products. | Free & open-source implementations (React Spectrum, Spectrum Web Components). |
+| **[Google Material Design](https://m3.material.io/)** | Google | Comprehensive design system (Material 3) with guidelines, tokens, and multi-platform kits. | 100% Free & open source (Android, Web, Flutter, React via MUI). |
+| **[Salesforce Lightning Design System](https://www.lightningdesignsystem.com/)** | Salesforce | Component blueprints, design tokens, and guidelines powering Salesforce enterprise experiences. | Free & open source (blueprints, tokens, styling hooks, and React wrappers). |
+| **[Microsoft Fluent Design System](https://fluent2.microsoft.design/)** | Microsoft | Design language and system across Windows, Office, and Microsoft 365. | Free & open source (Fluent UI for React and Web Components). |
+| **[Atlassian Design System](https://atlassian.design/)** | Atlassian | Foundations, tokens, and components used across Jira, Confluence, and Atlassian tools. | Free public access to guidelines, design tokens, and Figma kits. |
+| **[Shopify Polaris](https://polaris.shopify.com/)** | Shopify | Design system powering merchant administration and merchant-facing apps. | Free & open source (Polaris React component library on GitHub). |
+| **[IBM Carbon Design System](https://carbondesignsystem.com/)** | IBM | Enterprise design system with comprehensive component implementations across frameworks. | 100% Free & open source (React, Web Components, Angular, Vue). |
+| **[GitHub Primer](https://primer.style/)** | GitHub | Foundational design system powering GitHub's web products and developer tools. | 100% Free & open source (React, ViewComponent, CSS, design tokens). |
+| **[Ant Design](https://ant.design/)** | Ant Group | Enterprise-class UI design language and extensive React component suite. | 100% Free & open source (MIT license, also offers commercial MUI/Ant templates). |
 
 ## Open-Source GitHub Projects
 - **[IBM Carbon](https://github.com/carbon-design-system/carbon)**  
